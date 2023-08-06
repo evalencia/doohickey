@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
+# 
+# Look at the SQS queue for instance that have terminated then deregister from chef
 
 require 'fog'
 require 'json'
